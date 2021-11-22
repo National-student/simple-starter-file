@@ -3,13 +3,462 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simple starter</title>
+  <title>Spasibo</title>
+
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/style.min.css">
+
 </head>
 <body>
+  <h1 class="visually-hidden">Garpix</h1>
+  <header class="header">
+
+    <div class="container header__container">
+      <a class="header__link" href="index.html">
+        <img class="header__logo" src="img/logo.png" alt="header-logo" width="180" height="80">
+      </a>
+
+      <div class="header__navbar">
+
+        <ul class="navbar__list">
+          <li class="navbar__item"><a class="navbar__link" href="#">Купоны и сертификаты</a></li>
+          <li class="navbar__item"><a class="navbar__link" href="#">Впечатления</a></li>
+          <li class="navbar__item"><a class="navbar__link" href="#">Авиабилеты</a></li>
+          <li class="navbar__item"><a class="navbar__link" href="#">Ж/д билеты</a></li>
+          <li class="navbar__item"><a class="navbar__link" href="#">Отели</a></li>
+        </ul>
+
+        <ul class="navbar__list">
+          <li class="navbar__item"><a class="navbar__link" href="#">Каршеринг</a></li>
+          <li class="navbar__item"><a class="navbar__link" href="#">Театры</a></li>
+          <li class="navbar__item"><a class="navbar__link" href="#">Страхование</a></li>
+          <li class="navbar__item"><a class="navbar__link" href="#">Как подключиться</a></li>
+          <li class="navbar__item"><a class="navbar__link navbar__link--active" href="#">Партнеры</a></li>
+        </ul>
+
+      </div>
+
+      <div class="header__location">
+
+        <ul class="location">
+          <li class="location__city"><a class="scroll" href="#"><img src="img/geo.svg" alt="geol" width="24" height="24"></a></li>
+          <li class="location__city">
+              <a class="scroll" href="#">Санкт-Петербург</a>
+
+              <ul class="drop">
+                
+                <li class="drop__title">Ваш город - <span class="city">Санкт-Петербург?</span></li>
+                
+                <li class="drop__item">
+                  <a class="drop__link" href="#">Да</a>
+                  <a class="drop__city" href="#">Сменит город</a>
+                </li>
+                
+              </ul>
+        
+            </li>
+
+        </ul>
+
+        <ul class="search">
+          <li class="search__lupa">
+            <a class="search__lupa" href="#"><img src="img/lupa.svg" alt="lup" width="24" height="24"></a>
+          
+            <ul class="down">
+
+              <li class="down__list">
+              
+                <form action="https://echo.htmlacademy.ru">
+                  <input class="down__search" type="search" placeholder="Поиск">
+                </form>
+
+                <a class="down__link" href="#"><img class="down__img" src="img/lupa.svg" alt="loop" width="24" height="24"></a>
+
+              </li>
+           
+            </ul>  
+
+          </li>
+
+          <li class="search__item"><a class="search__come" href="#">Войти</a></li>
+        </ul>
+        
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <section class="container main__container">
+
+      <h2 class="main__title">
+        Партнеры и предложения
+      </h2>
+
+      <div class="main__table">
+        <ul class="main__list">
+          <li class="main__item"><a class="main__link" href="#">Все партнеры</a></li>
+          <li class="main__item"><a class="main__link" href="#">Популярные</a></li>
+          <li class="main__item"><a class="main__link" href="#">Супермаркеты</a></li>
+          <li class="main__item"><a class="main__link" href="#">Кафе и рестораны</a></li>
+          <li class="main__item"><a class="main__link" href="#">Такси</a></li>
+          <li class="main__item"><a class="main__link" href="#">Красота</a></li>
+          <li class="main__item"><a class="main__link main__link--active" href="#">Электроника и бытовая техника</a></li>
+          <li class="main__item"><a class="main__link" href="#">Зоотовары</a></li>
+          <li class="main__item"><a class="main__link" href="#">Кино и театр</a></li>
+          <li class="main__item"><a class="main__link" href="#">• • •</a></li>
+        </ul>
+      </div>
+
+        <ul class="box">
+          <li class="box__item"><a class="box__link" href="#">Начисляют спасибо</a></li>
+          <li class="box__item">
+
+              <form action="https://echo.htmlacademya.ru">
+
+                <input class="switch-input" type="checkbox" id="switch">
+                <label class="switch-label" for="switch"></label>
+
+              </form>
+
+          </li>
+          <li class="box__item"><a class="box__link box__link--active" href="#">Принимают спасибо</a></li>
+        </ul>
+
+    </section>
+
+    <div class="container boxes__container">
+
+      <div class="boxes__advertising">
+
+        <ul class="advertising__list">
+
+          <li class="advertising__item">
+            <a class="advertising__link" href="#">
+              <p class="persent">1,5%</p>
+
+              <p class="thanks">
+                Спасибо от суммы покупки
+              </p>
+
+              <img class="img" src="img/m_video.png" alt="m-video" width="120" height="120">
+
+              <p class="video">М.Видео</p>
+            </a>
+          </li>
+
+          <li class="advertising__item">
+            <a class="advertising__link" href="#">
+              <p class="persent">3 <sup class="top">%</sup></p>
+
+              <p class="thanks">
+                Спасибо от суммы покупки
+              </p>
+
+              <img class="img" src="img/burger__king.png" alt="m-video" width="120" height="120">
+
+              <p class="video">Бургер Кинг</p>
+            </a>
+          </li>
+
+          <li class="advertising__item">
+            <a class="advertising__link" href="#">
+              <p class="persent">4,5 <sup class="top">%</sup></p>
+
+              <p class="thanks">
+                Спасибо от суммы покупки
+              </p>
+
+              <img class="img" src="img/texnopark.png" alt="m-video" width="120" height="120">
+
+              <p class="video">Холодильник.ру</p>
+            </a>
+          </li>
+
+          <li class="advertising__item">
+            <a class="advertising__link" href="#">
+              <p class="persent">От 1, <sub class="bottom">5</sub> %</p>
+
+              <p class="thanks">
+                Спасибо от суммы покупки
+              </p>
+
+              <img class="img" src="img/bork.png" alt="m-video" width="120" height="120">
+
+              <p class="video">BORK</p>
+            </a>
+          </li>
+
+          <li class="advertising__item">
+            <a class="advertising__link" href="#">
+              <p class="persent">1, <sub class="bottom">5</sub> %</p>
+
+              <p class="thanks">
+                Спасибо от суммы покупки
+              </p>
+
+              <img class="img" src="img/evroset.png" alt="m-video" width="120" height="120">
+
+              <p class="video">Евросеть</p>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="boxes__number">
+        <a class="boxes__link" href="#">Еще 4 партнера</a>
+      </div>
+
+    </div>
+
+    <section class="container cards__container">
+      
+    <h3 class="cards__title">3 предложения в категории «Электроника и <br> бытовая техника»</h3>
+
+    <ul class="cards__list">
+      
+      <li class="cards__item"><a class="cards__list-link" href="#">
+
+        <img src="img/sokovjimalka.png" alt="fructis" width="366" height="236">
+
+        <div class="photos">
+
+          <img src="img/texnopark.png" alt="texno" width="50" height="50">
+
+          <div class="texts">
+            <p class="text__first">
+              Технопарк
+            </p>
+
+            <p class="text__second">
+              20% спасибо за технику Electrolux
+            </p>
+          </div>
+
+          </div>
+
+        </a>
+
+      </li>
+
+      <li class="cards__item"><a class="cards__list-link" href="#">
+
+        <img src="img/black__friday.png" alt="fructis" width="366" height="236">
+
+        <div class="photos">
+
+          <img src="img/evroset.png" alt="texno" width="50" height="50">
+
+          <div class="texts">
+            <p class="text__first">
+              Евросеть
+            </p>
+
+            <p class="text__second">
+              10% спасибо за покупки в черную пятницу
+            </p>
+          </div>
+
+          </div>
+
+        </a>
+
+      </li>
+
+      <li class="cards__item"><a class="cards__list-link" href="#">
+
+        <img src="img/m_video-card.png" alt="fructis" width="366" height="236">
+
+        <div class="photos">
+
+          <img src="img/m_video.png" alt="texno" width="50" height="50">
+
+          <div class="texts">
+            <p class="text__first">
+              М.Видео
+            </p>
+
+            <p class="text__second">
+              15% спасибо для студентов
+            </p>
+          </div>
+
+          </div>
+
+        </a>
+
+      </li>
+
+  </ul>
+
+  <div class="boxes__number">
+    <a class="boxes__link" href="#">
+      Еще 4 предложения
+    </a>
+  </div>
+
+</section>
+
+<div class="container last__container">
+
+  <div class="cild">
+
+    <p class="child__text">
+
+      <a class="child__last" href="#">
+
+        <img class="circle" src="img/burger__king.png" alt="king" width="120" height="120">
+        <img class="circle" src="img/five.png" alt="king" width="120" height="120">
+        <img class="circle" src="img/republic.png" alt="king" width="120" height="120">
+        <img class="circle" src="img/megafon.png" alt="king" width="120" height="120">
+        <img class="circle" src="img/big_M.png" alt="king" width="120" height="120">
+    
+      </a>
+    
+    </p>
+    
+    <p class="last__text">
+      Скидки за бонусы
+    </p>
   
-  <h1>Simple starter</h1>
+
+  </div>
+
+  <div class="secondchild">
+
+    <div class="secondchild__container">
+
+      <p class="secondchild__text">
+
+        <img class="percents" src="img/pecsent-1.5.png" alt="foiz" width="50" height="50">
+        <img class="percents-first" src="img/percent-5.png" alt="foiz" width="50" height="50">
+        <img class="percents-last" src="img/percent-3.png" alt="foiz" width="50" height="50">
+
+
+        <a class="secondchild__last" href="#">
+
+          <img class="circle" src="img/health.png" alt="heal" width="120" height="120">
+          <img class="circle" src="img/five.png" alt="heal" width="120" height="120">
+          <img class="circle" src="img/litres.png" alt="heal" width="120" height="120">
+
+        </a>
+
+    </p>
+      
+      <img class="bottom-img" src="img/bolshoy.png" alt="katta" width="227" height="42" >
+
+
+    </div>
+
+    <div class="secondchild__container">
+
+      <p class="secondchild__text">
+
+        <a class="secondchild__last" href="#">
+
+          <img class="circle" src="img/posuda.png" alt="heal" width="120" height="120">
+          <img class="circle" src="img/lamoda.png" alt="heal" width="120" height="120">
+          <img class="circle" src="img/mytoys.png" alt="heal" width="120" height="120">
+
+        </a>
+
+    </p>
+      
+      <img class="bottom-img" src="img/vigodni.png" alt="katta" width="227" height="42" >
+
+
+    </div>
+     
+  </div>
+
+  <div class="cild">
+
+    <p class="child__text">
+
+      <a class="child__last" href="#">
+
+        <img class="circle" src="img/burger__king.png" alt="king" width="120" height="120">
+        <img class="circle" src="img/five.png" alt="king" width="120" height="120">
+        <img class="circle" src="img/republic.png" alt="king" width="120" height="120">
+        <img class="circle" src="img/megafon.png" alt="king" width="120" height="120">
+        <img class="circle" src="img/big_M.png" alt="king" width="120" height="120">
+    
+      </a>
+    
+    </p>
+
+    <img class="personal-img" src="img/personal.png" alt="personal-img" width="327" height="42" >
+
+  </div>
+
+</div>
+
+</main>
+<footer class="footer">
+
+  <div class="container footer__container">
+
+  <div class="footer_first-div">
+
+    <h4 class="number">900</h4>
+
+    <p class="russia">По России бесплатно</p>
+
+    <a class="footer__logo" href="index.html"><img class="sber-logo" src="img/sberlogo.svg" alt="sber-bank" width="159" height="40"></a>
+
+   <p class="companies">
+    © 1997—2019 ПАО Сбербанк.
+    </p>
+
+  </div>
+
+<div class="header__navbar">
+
+  <ul class="navbar__list">
+    <li class="navbar__item"><a class="navbar__link--foter" href="#">Купоны и сертификаты</a></li>
+    <li class="navbar__item"><a class="navbar__link--foter" href="#">Впечатления</a></li>
+    <li class="navbar__item"><a class="navbar__link--foter" href="#">Авиабилеты</a></li>
+    <li class="navbar__item"><a class="navbar__link--foter" href="#">Ж/д билеты</a></li>
+    <li class="navbar__item"><a class="navbar__link--foter" href="#">Отели</a></li>
+  </ul>
+
+  <ul class="navbar__list">
+    <li class="navbar__item"><a class="navbar__link--foter" href="#">Каршеринг</a></li>
+    <li class="navbar__item"><a class="navbar__link--foter" href="#">Театры</a></li>
+    <li class="navbar__item"><a class="navbar__link--foter" href="#">Страхование</a></li>
+    <li class="navbar__item"><a class="navbar__link--foter" href="#">Как подключиться</a></li>
+    <li class="navbar__item"><a class="navbar__link--foter" href="#">Партнеры</a></li>
+  </ul>
+
+  <div class="social">
+
+    <ul class="social__list">
+      <li class="social__item"><a class="social__link" href="#"><img class="merkets" src="img/play-mrket.png" alt="internet" width="130" height="40"></a></li>
+      <li class="social__item"><a class="social__link" href="#"><img class="merkets" src="img/app-store.svg" alt="internet" width="130" height="40"></a></li>
+    </ul>
+
+    <ul class="social__messenger">
+      <li class="messenger__item"><a class="messenger__link" href=""><img class="meta" src="img/ok.svg" alt="ok" width="40" height="40"></a></li>
+      <li class="messenger__item"><a class="messenger__link" href=""><img class="meta" src="img/fb.svg" alt="ok" width="40" height="40"></a></li>
+      <li class="messenger__item"><a class="messenger__link" href=""><img class="meta" src="img/vk.svg" alt="ok" width="40" height="40"></a></li>
+      <li class="messenger__item"><a class="messenger__link" href=""><img class="meta" src="img/inst.svg" alt="ok" width="40" height="40"></a></li>
+    </ul>
+  </div>
+
+  <p class="last-text">
+    <span class="tex-under">Политика</span>АО «ЦПЛ» в отношении обработки персональных данных и 
+    <span class="tex-under">Согласие</span>на обработку данных участника Программы <br> «Спасибо от Сбербанка»
+  </p>
+
+</div>
+
+</div>
+
+</footer>
 
   <script src="js/main.js"></script>
 </body>
